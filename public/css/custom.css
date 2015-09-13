@@ -1,0 +1,25 @@
+/* customize spacing */
+
+.whatweuse-section, .FAQ-section {
+	 padding-top: 200px;
+	 padding-bottom: 200px;
+}
+
+
+
+
+/* thumbnail for what we use section */
+.thumbnail-tech {
+	margin: 50px auto;
+}
+
+.thumbnail-tech .thumbnail {
+	background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.thumbnail-tech .thumbnail> img{
+    height: 200px;
+    width: auto;
+}
+
