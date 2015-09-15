@@ -23,3 +23,26 @@
     width: auto;
 }
 
+/* FAQ section */
+
+.left-align {
+	text-align: left;
+}
+
+.faq-heading {
+	margin-bottom: 70px;
+}
+
+.faq-question {
+	font-size: 150%;
+	text-transform: none;
+	margin-bottom: 12px;
+	font-weight: 800;
+	color: grey;
+}
+
+.faq-answer {
+	font-size: 110%;
+	margin-bottom: 20px;
+	font-weight: 300;
+}
