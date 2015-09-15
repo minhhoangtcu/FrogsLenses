@@ -1,10 +1,86 @@
 /* customize spacing */
 
-.whatweuse-section, .FAQ-section {
-	 padding-top: 200px;
-	 padding-bottom: 200px;
+.whatweuse-section, .FAQ-section{
+	padding-top: 200px;
+	padding-bottom: 200px;
 }
 
+.whoweare-section {
+	padding-top: 230px;
+	padding-bottom: 230px;
+}
+
+
+/* Who we are section */
+
+.whoweare-heading {
+	margin-bottom: 100px;
+}
+
+#profile {
+  position: relative;
+  background: #42DCA3;
+}
+#profile img {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  margin: 0 0 0 -42px;
+  width: 76px;
+  height: 76px;
+  border: 4px solid #ecf0f1;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.04);
+  -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.04);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.04);
+  background: #ecf0f1 0 0 no-repeat;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+#profile .btn, #profile .btn:visited {
+  position: absolute;
+  top: 10px;
+  z-index: 10;
+  padding: 0 8px;
+  height: 24px;
+  font-size: 10px;
+  line-height: 24px;
+  font-weight: 100;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+#profile .btn:hover, #profile .btn:visited:hover {
+  color: rgba(255, 255, 255, 0.8);
+  background: #23527c;
+}
+#profile .btn.btn_left, #profile .btn:visited.btn_left {
+  left: 10px;
+}
+#profile .btn.btn_right, #profile .btn:visited.btn_right {
+  right: 10px;
+}
+#profile .info {
+  position: relative;
+  padding: 42px 22px 18px 22px;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  color: #ecf0f1;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+}
+#profile .info strong {
+  font-weight: 400;
+}
 
 
 
@@ -23,8 +99,9 @@
     width: auto;
 }
 
-/* FAQ section */
 
+
+/* FAQ section */
 .left-align {
 	text-align: left;
 }
